@@ -3,13 +3,14 @@
 using namespace std;
 
 int main(){
-	int n=5;
+	fast;
+	int n;
+	cin>>n;
 	pair<int, char> p[n];
 	
 	for(int i=0;i<n;i++)
 		cin>>p[i].first>>p[i].second;
 
 	for(int i=0;i<n;i++)
-		cout<<p[i].first<<" "<<p[i].second<<endl;
-
+		cout<<p[i].first<<" "<<p[i].second<<"\n";
 }
